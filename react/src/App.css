@@ -1,0 +1,29 @@
+:root{
+    --black: #1b1b1b;
+    --white: #fff;
+    --blue: #12a6fc;
+}
+
+.main-editor{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.left-menu{
+    display: flex;
+    gap: 0.1rem;
+}
+
+.upload-menu{
+    position: absolute;
+    left: 9rem;
+    top: 12rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.text{
+    color: white;
+}

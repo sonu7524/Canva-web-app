@@ -1,0 +1,12 @@
+.header{
+    background-color: var(--blue);
+    padding: 0.1rem 2rem;
+    align-items: center;
+    box-shadow: 0 0.5em 1rem -0.5em rgb(184, 146, 255);
+    z-index: 1000;
+}
+
+.logo{
+    font-size: 2rem;
+    color: white;
+}
