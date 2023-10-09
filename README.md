@@ -1,5 +1,5 @@
 # Canva-web-app
-
+![image](https://github.com/sonu7524/Canva-web-app/blob/master/Screenshot%20(32).png)
 
 ## Development
 
