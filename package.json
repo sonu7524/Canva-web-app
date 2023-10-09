@@ -1,0 +1,19 @@
+{
+  "name": "canva-web-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend": "cd client && npm install",
+    "backend": "cd server && npm install",
+    "setup": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm start\" \"npm run start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.1"
+  }
+}
